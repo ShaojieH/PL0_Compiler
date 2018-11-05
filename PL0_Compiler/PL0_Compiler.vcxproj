@@ -19,16 +19,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\CLionProjects\PL0\lexical.h" />
-    <ClInclude Include="..\..\..\..\CLionProjects\PL0\syntax.h" />
+    <ClInclude Include=".\lexical.h" />
+    <ClInclude Include=".\syntax.h" />
+    <ClInclude Include="helper.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\CLionProjects\PL0\lexical.c" />
-    <ClCompile Include="..\..\..\..\CLionProjects\PL0\main.c" />
-    <ClCompile Include="..\..\..\..\CLionProjects\PL0\syntax.c" />
+    <ClCompile Include=".\lexical.c" />
+    <ClCompile Include=".\main.c" />
+    <ClCompile Include=".\syntax.c" />
+    <ClCompile Include="helper.c" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\..\..\CLionProjects\PL0\test.txt" />
+    <Text Include=".\test.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

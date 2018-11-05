@@ -15,27 +15,31 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\CLionProjects\PL0\lexical.h">
+    <ClInclude Include=".\lexical.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\CLionProjects\PL0\syntax.h">
+    <ClInclude Include=".\syntax.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="helper.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\CLionProjects\PL0\main.c">
+    <ClCompile Include=".\lexical.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\CLionProjects\PL0\syntax.c">
+    <ClCompile Include=".\main.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\CLionProjects\PL0\lexical.c">
+    <ClCompile Include=".\syntax.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="helper.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\..\..\CLionProjects\PL0\test.txt">
-      <Filter>源文件</Filter>
-    </Text>
+    <Text Include=".\test.txt" />
   </ItemGroup>
 </Project>
