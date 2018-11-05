@@ -18,6 +18,18 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\CLionProjects\PL0\lexical.h" />
+    <ClInclude Include="..\..\..\..\CLionProjects\PL0\syntax.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\CLionProjects\PL0\lexical.c" />
+    <ClCompile Include="..\..\..\..\CLionProjects\PL0\main.c" />
+    <ClCompile Include="..\..\..\..\CLionProjects\PL0\syntax.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\CLionProjects\PL0\test.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{6C64B360-769C-4683-B906-47501FDEF25A}</ProjectGuid>
@@ -110,8 +122,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
